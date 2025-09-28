@@ -1,0 +1,159 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:3000/love
+Subject: =?utf-8?Q?For=20Becky=20=E2=80=94=20A=20Little=20Love=20Page?=
+Date: Sun, 28 Sep 2025 20:37:04 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--jHDoQHf0Cy5Rq03UEjjupU7e8aYV4tYKN6QInv9YVJ----"
+
+
+------MultipartBoundary--jHDoQHf0Cy5Rq03UEjjupU7e8aYV4tYKN6QInv9YVJ----
+Content-Type: text/html
+Content-ID: <frame-073E5C4627281F5D4748E860CABAB9AE@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://localhost:3000/love
+
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-e44acb85-4078-45f0-9631-88797bb0fd5b@mhtml.blink" />
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>For Becky — A Little Love Page</title>
+  
+</head>
+<body>
+  <canvas id="confettiCanvas" width="426" height="867"></canvas>
+  <div class="card">
+    <header>
+      <div class="avatar" id="initials">B</div>
+      <div style="flex:1">
+        <h1>For Becky — little notes to make you smile</h1>
+        <p class="lead">Tiny love, big smile. A special place just for you 💕</p>
+        <div class="love-badge"><span class="love-glow">love 💕</span></div>
+      </div>
+      <div style="text-align:right">
+        <small>Open on phone for best effect</small>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col">
+        <div class="panel">
+          <h2 style="margin-top:0">Sweet Messages</h2>
+          <div class="messages" id="messages">
+            <!-- messages inserted by JS -->
+          <div class="msg heart" style="opacity: 1; transform: translateY(0px); transition: 500ms;"><strong>Note 1:</strong> You light up every room — and my phone screen when you smile.</div><div class="msg" style="opacity: 1; transform: translateY(0px); transition: 500ms;"><strong>Note 2:</strong> If smiles were stars, you'd be the whole sky.</div><div class="msg" style="opacity: 1; transform: translateY(0px); transition: 500ms;"><strong>Note 3:</strong> Becky — you make ordinary days feel magical.</div><div class="msg" style="opacity: 1; transform: translateY(0px); transition: 500ms;"><strong>Note 4:</strong> Tiny note: I hope your day is as bright as your laugh.</div><div class="msg" style="opacity: 1; transform: translateY(0px); transition: 500ms;"><strong>Note 5:</strong> PS: You look amazing when you read this. Keep smiling. ❤️</div></div>
+        </div>
+
+        <div class="panel" style="margin-top:14px">
+          <h2 style="margin-top:0">Riddles (solve them and get a surprise!)</h2>
+
+          <div id="riddlesArea">
+            <!-- riddles inserted by JS -->
+          <div class="riddle panel"><h3>Riddle 1</h3><div style="font-size:14px;margin-bottom:8px">I have keys but no locks. I have space but no room. You can enter, but can't go outside. What am I?</div><input placeholder="Your answer..." id="ranswer0"><button data-idx="0">Check answer</button><div class="rresult" id="rres0" style="margin-top:8px"></div></div><div class="riddle panel"><h3>Riddle 2</h3><div style="font-size:14px;margin-bottom:8px">What has a heart that doesn’t beat?</div><input placeholder="Your answer..." id="ranswer1"><button data-idx="1">Check answer</button><div class="rresult" id="rres1" style="margin-top:8px"></div></div><div class="riddle panel"><h3>Riddle 3</h3><div style="font-size:14px;margin-bottom:8px">I’m not alive, but I grow. I don’t have lungs, but I need air. What am I?</div><input placeholder="Your answer..." id="ranswer2"><button data-idx="2">Check answer</button><div class="rresult" id="rres2" style="margin-top:8px"></div></div></div>
+
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="panel">
+          <h2>Photo corner</h2>
+          <p>Drop or pick a few of Becky’s pictures (they stay local on your phone — no upload anywhere).</p>
+          <div class="uploader" id="dropZone">
+            <div>Tap to choose photos or drag them here</div>
+            <input id="fileInput" type="file" accept="image/*" multiple="" style="display:none">
+            <div class="thumbs" id="thumbs"></div>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top:14px">
+          <h2>Little secret lock</h2>
+          <p>Type Becky (or Rebecca) to unlock an extra message</p>
+          <input id="unlockInput" placeholder="Type her name...">
+          <button id="unlockBtn">Unlock</button>
+          <div id="secret" style="margin-top:10px;display:none;padding:10px;border-radius:10px;background:rgba(255,255,255,0.02)">Hey Becky — you stole my heart. 💖</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Made with a big smile — deliver this page to Becky and watch her grin 😊</footer>
+  </div>
+
+  
+
+
+
+</body></html>
+------MultipartBoundary--jHDoQHf0Cy5Rq03UEjjupU7e8aYV4tYKN6QInv9YVJ----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: cid:css-e44acb85-4078-45f0-9631-88797bb0fd5b@mhtml.blink
+
+@charset "utf-8";
+
+:root { --bg1: #ff4d4d; --bg2: #4d6bff; --glass: rgba(255,255,255,0.08); --accent: rgba(255,255,255,0.9); }
+
+html, body { height: 100%; margin: 0px; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+
+body { background-image: ; background-position-x: ; background-position-y: ; background-repeat: ; background-attachment: ; background-origin: ; background-clip: ; background-color: ; background-size: 400% 400%; animation: 12s ease-in-out 0s infinite normal none running bgmove; color: var(--accent); -webkit-font-smoothing: antialiased; display: flex; align-items: center; justify-content: center; padding: 20px; }
+
+@keyframes bgmove { 
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.card { width: 100%; max-width: 920px; border-radius: 20px; padding: 26px; background: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.03)); box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 40px; backdrop-filter: blur(8px); }
+
+header { display: flex; align-items: center; gap: 18px; }
+
+.avatar { width: 84px; height: 84px; border-radius: 18px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 26px; color: rgba(255, 255, 255, 0.95); box-shadow: rgba(0, 0, 0, 0.35) 0px 6px 18px inset; }
+
+h1 { margin: 0px; font-size: 28px; letter-spacing: 0.2px; }
+
+p.lead { margin: 6px 0px 0px; opacity: 0.95; }
+
+.row { display: flex; gap: 18px; margin-top: 18px; }
+
+.col { flex: 1 1 0%; min-width: 220px; }
+
+.panel { background: rgba(255, 255, 255, 0.03); padding: 16px; border-radius: 14px; }
+
+.love-badge { display: inline-block; padding: 12px 18px; border-radius: 999px; font-weight: 700; margin-top: 8px; position: relative; box-shadow: rgba(255, 80, 120, 0.18) 0px 6px 30px; }
+
+.love-glow { font-size: 22px; color: rgb(255, 255, 255); text-shadow: rgba(255, 120, 170, 0.9) 0px 0px 12px, rgba(255, 80, 160, 0.45) 0px 0px 36px; animation: 2s ease 0s infinite normal none running pulse; }
+
+@keyframes pulse { 
+  0% { transform: scale(1); filter: brightness(1); }
+  50% { transform: scale(1.03); filter: brightness(1.12); }
+  100% { transform: scale(1); }
+}
+
+.messages { display: grid; gap: 10px; }
+
+.msg { padding: 10px; border-radius: 10px; background: linear-gradient(90deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01)); }
+
+.msg.heart { display: flex; align-items: center; gap: 10px; }
+
+.riddle { margin-top: 10px; }
+
+.riddle h3 { margin: 0px 0px 6px; font-size: 16px; }
+
+.riddle input { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.08); background: transparent; color: var(--accent); outline: none; }
+
+.riddle button { margin-top: 8px; padding: 10px 12px; border-radius: 10px; border: none; background: rgba(255, 255, 255, 0.1); cursor: pointer; }
+
+footer { margin-top: 16px; text-align: center; font-size: 13px; opacity: 0.95; }
+
+.uploader { display: flex; align-items: center; justify-content: center; border: 2px dashed rgba(255, 255, 255, 0.08); padding: 18px; border-radius: 12px; min-height: 120px; flex-direction: column; gap: 8px; }
+
+.thumbs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+
+.thumbs img { width: 80px; height: 80px; object-fit: cover; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 18px; }
+
+@media (max-width: 720px) {
+  header { gap: 12px; }
+  .row { flex-direction: column; }
+}
+
+#confettiCanvas { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 9999; }
+------MultipartBoundary--jHDoQHf0Cy5Rq03UEjjupU7e8aYV4tYKN6QInv9YVJ------
